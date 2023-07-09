@@ -10,7 +10,11 @@
     text-align: center;
     font-size: 80px;
     margin-top: 100px;
+    
 }
+
+
+
 .lista {
     list-style: none;
     font-size: 0;
@@ -35,12 +39,19 @@ nav a {
   
 }
 
-li a:hover {
+.hover1:hover {
         background-color: blueviolet;
         border-radius: 2rem;
         border: solid 1px;
         border-color: black;
+
+        
 }
+.margind {
+        margin:auto;
+        width: 100%;
+        justify-content: space-around;
+     }
 aside:hover {
         background-color: blueviolet;
         border-radius: 2rem;
@@ -59,6 +70,10 @@ aside:hover {
 .padding {
         padding: 40px;
 }
+.padding2 {
+        padding: 10px;
+        
+}
 .margin {
         margin: 40px;
 }
@@ -76,12 +91,14 @@ footer {
 }
 
 .flex {
+        
         margin: 20px 10px;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
         text-align: center;
+        height: 100%;
 }
 .contactflex {
         margin: 20px 20px;
@@ -123,8 +140,15 @@ div img{
 .grid-container { display: grid;
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         gap: 32px;
-       
+       }
 
+video {
+        max-width: 100%;
+        max-height: 100%;
+}
+@media (max-width: 600px) {
+        .flex{
+                flex-direction: column;
+        }
 
 }
-
