@@ -146,15 +146,19 @@ video {
         max-width: 100%;
         max-height: 100%;
 }
-@media (max-width: 600px) {
+@media (max-width: 769px) {
         .flex{
                 flex-direction: column;
         }
 
 }
-@media (max-width: 600px) {
+@media (max-width: 769px) {
         .titulomedia{
                 font-size: 60px;
         }
-
+}
+@media (max-width: 375px) {
+        .titulomedia{
+                font-size: 40px;
+        }
 }
