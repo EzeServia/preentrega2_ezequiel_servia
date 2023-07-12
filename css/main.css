@@ -8,7 +8,7 @@
 }
 .titulo {
     text-align: center;
-    font-size: 80px;
+    font-size: 100px;
     margin-top: 100px;
     
 }
@@ -149,6 +149,12 @@ video {
 @media (max-width: 600px) {
         .flex{
                 flex-direction: column;
+        }
+
+}
+@media (max-width: 600px) {
+        .titulomedia{
+                font-size: 60px;
         }
 
 }
