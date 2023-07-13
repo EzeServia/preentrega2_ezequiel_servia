@@ -2,12 +2,18 @@
 .font {
         font-family: 'Dancing Script', cursive;
 }
+.font2 {
+        font-size: 26px;
+}
+.font3 {
+        font-size: 42px;
+}
 .fondo {
     background-image: url(../imagenes/brillo.jpg);
     background-size: cover;
 }
 .fondo2 {
-    background-color: rgb(187, 64, 236);
+    background-color:blueviolet;
 }
 .titulo {
     text-align: center;
@@ -19,7 +25,14 @@
         text-align: center;
         border-radius: 20px;
 }
-
+.text-shadow {
+        text-shadow: 2px 2px 5px rgb(227, 25, 245);
+}   
+.img2 {
+        width: 250px;
+        height: 250px;
+}
+ 
 
 
 .lista {
@@ -85,9 +98,7 @@ aside:hover {
 .margin10 {
         margin: 10px;
 }
-.marginright {
-        margin-left: 500px;
-}
+
 .margind {
         margin:auto;
         width: 100%;
@@ -120,10 +131,20 @@ footer {
         text-align: center;
         height: 100%;
 }
-.contactflex {
-     
-        
- 
+.flexc {
+        display: flex;
+        flex-direction: column;
+}
+.flexwrap {
+        flex-wrap: wrap;
+}
+.flexp {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.justi {
+        justify-items: center;
 }
 .boton {
        background-color: blueviolet;
@@ -170,11 +191,31 @@ div img{
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         gap: 32px;
        }
-
-video {
-        max-width: 100%;
-        max-height: 100%;
+.grid-conteiner2 {
+        display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  height: 100vh;;
 }
+.divgrid {
+        grid-area: 1 / 4 / span 2 / span 6;
+}
+.maingrid {
+        grid-area: 7 / 4 / span 4 / span 6;
+}
+.artigrid { 
+        grid-area: 4 / 4 / span 2 / span 6;
+}
+.boton1 {
+        border-radius: 30px;
+        background-color: blueviolet;
+        color: black;
+        border: solid 1px;
+}
+    
+video { width:640px;
+        height: 480px;}
+       
 
 @media (max-width: 769px) {
         .flex{
@@ -183,14 +224,30 @@ video {
                 width: 100%;
                 margin: 5px 5px;
         }
+video{
+        width: 430px;
+        height: 320px;}
+
         .titulomedia{
                 font-size: 60px;
-        }
-
 }
+.divgrid {
+        grid-area: 1 / 3 / span 1 / span 7;
+}
+.maingrid {
+        grid-area: 7 / 4 / span 4 / span 6;
+}
+.artigrid { 
+        grid-area: 4 / 4 / span 2 / span 6;
+}
+}
+
+
 
 @media (max-width: 375px) {
         .titulomedia{
                 font-size: 40px;
         }
-}
+} video {
+        width: 300px;
+        ;}
