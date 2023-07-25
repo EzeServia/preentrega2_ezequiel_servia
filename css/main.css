@@ -96,7 +96,9 @@ aside:hover {
 .borde {
          border: solid 2px blueviolet;
 }
-
+.bordeblanco {
+        border-color: white;
+}
 article img {
         width: 150px;
         height: 150px;
@@ -129,6 +131,7 @@ article img {
         color: black;
         border: solid 1px;
 }
+.width100{ width: 100%;}
 .widthnos {
         width: 360px;
         height: 360px;
@@ -146,21 +149,24 @@ article img {
         height: auto;
 }
 /*grid*/
-.grid-conteiner2 {
+.grid-conteiner {
         display: grid;
-        grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: repeat(12, 1fr);
-        height: 100vh;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-areas: 
+        "titulo titulo titulo titulo"
+        "nav nav nav nav"
+        "none subt subt none"
+        "none parrafo parrafo none"
+        "none formulario formulario none"
+        "pie pie pie pie ";
 }
-.divgrid {
-        grid-area: 2 / 4 / span 1 / span 6;
-}
-.maingrid {
-        grid-area: 7 / 4 / span 4 / span 6;
-}
-.artigrid { 
-        grid-area: 4 / 4 / span 2 / span 6;
-}
+header { grid-area: titulo;}
+nav { grid-area: nav;}
+div { grid-area: subt;}
+article { grid-area: parrafo;}
+main { grid-area: formulario;}
+footer { grid-area: pie;}
 /*MediaQueries*/
 @media (max-width: 769px) {
         .flex{
