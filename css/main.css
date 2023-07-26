@@ -1,4 +1,4 @@
-/* fuentes*/
+ /* fuentes*/
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 .font {
        font-family: 'Dancing Script', cursive;
@@ -71,7 +71,7 @@ aside:hover {
         border: solid 1px;
         border-color: black;
         text-shadow: none;
-}
+} 
 /*formas y tamaños*/
 .radius100 {
         border-radius: 100px;

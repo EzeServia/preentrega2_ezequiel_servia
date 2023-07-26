@@ -1,0 +1,56 @@
+$colorprimario: blueviolet;
+$colorsecundario: white;
+$colornegro: black;
+.fondo {
+    background-image: url(../imagenes/brillo.jpg);
+    background-size: cover;
+}
+.fondo2 {
+    background-color:$colorprimario;
+}
+video { width:640px;
+    height: 480px;}
+nav {
+    ul{
+        li{
+   display: inline-block;
+   width: 20%;
+}}}
+nav{
+     a {
+   font-size: 20px;
+   text-align: center;
+   display: block;
+   color:$colorsecundario;
+   padding: 10px;
+   text-decoration: none;
+   font-family: sans-serif;
+   position: relative;
+}}
+div {
+    img{
+    border-radius: 10px;
+    width: 150px;
+    height: 134px;
+}}
+aside {
+    &:hover {
+    background-color:$colorprimario;
+    border-radius: 2rem;
+    border: solid 1px;
+    border-color:$colornegro;
+}}
+.hover1{
+    &:hover {
+    background-color:$colorprimario;
+    border-radius: 2rem;
+    border: solid 1px;
+    border-color: $colornegro;
+    text-shadow: none;
+}}
+article{
+     img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}}

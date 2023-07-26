@@ -1,0 +1,95 @@
+.radius100 {
+  border-radius: 100px;
+}
+
+.centrar {
+  text-align: center;
+}
+
+.padding2 {
+  padding: 20px;
+}
+
+.margin10 {
+  margin: 10px;
+}
+
+.margind {
+  margin: auto;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.marginbottom {
+  margin-bottom: 10px;
+}
+
+.borde {
+  border: solid 2px blueviolet;
+}
+
+.bordeblanco {
+  border-color: white;
+}
+
+.flex {
+  margin: 20px 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.flexp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boton {
+  background-color: blueviolet;
+  border: solid 1px;
+  color: black;
+  border-radius: 10px;
+}
+
+.boton1 {
+  border-radius: 30px;
+  background-color: blueviolet;
+  color: black;
+  border: solid 1px;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.widthnos {
+  width: 360px;
+  height: 360px;
+}
+
+.widthicon {
+  width: 30px;
+}
+
+.width600 {
+  width: 600px;
+}
+
+.width150 {
+  width: 150px;
+  height: 150px;
+}
+
+.widthauto {
+  width: auto;
+}
+
+.heightauto {
+  height: auto;
+}
+
+/*# sourceMappingURL=formasytama%C3%B1os.css.map */

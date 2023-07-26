@@ -1,0 +1,23 @@
+$colorprimario:blueviolet ;
+$colorsecundario: white;
+$colorsombra: #e319f5;
+
+.titulo {
+    text-align: center;
+    font-size: 100px;
+    margin-top: 100px;    
+}
+.tituloser {
+    text-align: center;
+    border-radius: 20px;
+}
+.text-shadow {
+    text-shadow: 2px 2px 5px $colorprimario
+}  
+.textoblanco { color:$colorsecundario;
+    text-shadow: 2px 2px  $colorsombra
+}
+.textoclaro {
+    color: $colorsecundario;
+    text-shadow: 5px 5px  rgb(0, 0, 0);
+}
