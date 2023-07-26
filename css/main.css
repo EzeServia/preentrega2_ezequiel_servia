@@ -4,10 +4,10 @@
        font-family: 'Dancing Script', cursive;
 }
 .font2 {
-       font-size: 26px;
+       font-size: 20px;
 }
 .font3 {
-       font-size: 42px;
+       font-size: 36px;
 }
 .textoblanco { color: white;
         text-shadow: 2px 2px  rgb(0, 0, 0);
@@ -131,7 +131,9 @@ article img {
         color: black;
         border: solid 1px;
 }
-.width100{ width: 100%;}
+.width100{ 
+        width: 100%;
+}
 .widthnos {
         width: 360px;
         height: 360px;
@@ -141,6 +143,10 @@ article img {
 }
 .width600 {
         width: 600px;
+}
+.width150 {
+        width: 150px;
+        height: 150px;
 }
 .widthauto {
         width: auto;
@@ -152,21 +158,18 @@ article img {
 .grid-conteiner {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(6, 1fr);
+        grid-template-rows: repeat(4, 1fr);
         grid-template-areas: 
-        "titulo titulo titulo titulo"
-        "nav nav nav nav"
-        "none subt subt none"
-        "none parrafo parrafo none"
-        "none formulario formulario none"
-        "pie pie pie pie ";
+        "parrafo parrafo parrafo parrafo"
+        "subt subt formulario formulario"
+        "subt subt formulario formulario"
+        "subt subt formulario formulario"
+        ;
 }
-header { grid-area: titulo;}
-nav { grid-area: nav;}
-div { grid-area: subt;}
-article { grid-area: parrafo;}
-main { grid-area: formulario;}
-footer { grid-area: pie;}
+.gridi1 { grid-area: subt;}
+.gridi2 { grid-area: parrafo;}
+.gridi3 { grid-area: formulario;}
+
 /*MediaQueries*/
 @media (max-width: 769px) {
         .flex{
@@ -174,30 +177,28 @@ footer { grid-area: pie;}
                 align-items: center;
                 width: 100%;
                 margin: 5px 5px;
-        }
+}
         .width600{
                 width: 450px;
                 margin-top: 10px;
-        }
-video{
+}
+        video{
         width: 430px;
-        height: 320px;}
-
+        height: 320px;
+}
         .titulo{
                 font-size: 60px;
-}
-        .divgrid {
-        grid-area: 1 / 2 / span 1 / span 10;
-        font-size: 24px;
-}
-        .maingrid {
-        grid-area: 7 / 4 / span 4 / span 6;
-        font-size: 20px;
-}
-        .artigrid { 
-        grid-area: 4 / 4 / span 2 / span 6;
-        font-size: 16px;
-}
+} 
+        .grid-conteiner {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas: 
+        "parrafo parrafo parrafo parrafo"
+        "subt subt subt subt"
+        "formulario formulario formulario formulario"
+        "formulario formulario formulario formulario";
+}   
 }
 @media (max-width: 375px) {
         .titulo{
@@ -205,6 +206,10 @@ video{
         }
         .widthnos {
                 width: 300px;
+}
+.width150{
+        width: 100px;
+        height: 100px;
 }
 .width600{
         width: 300px;
