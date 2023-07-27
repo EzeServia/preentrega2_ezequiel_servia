@@ -140,6 +140,11 @@
   height: 210px;
 }
 
+.video {
+  width: 640px;
+  height: 480px;
+}
+
 .grid-conteiner {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -229,7 +234,7 @@
     width: 450px;
     margin-top: 10px;
   }
-  video {
+  .video {
     width: 430px;
     height: 320px;
   }
@@ -257,8 +262,9 @@
   .width600 {
     width: 300px;
   }
-  video {
-    width: 250px;
+  .video {
+    width: 322.5px;
+    height: 240px;
   }
   /*footer*/
   footer {
