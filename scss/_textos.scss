@@ -1,7 +1,7 @@
 $colorprimario:blueviolet ;
 $colorsecundario: white;
 $colorsombra: #e319f5;
-
+$colornegro: black;
 .titulo {
     text-align: center;
     font-size: 100px;
@@ -12,12 +12,13 @@ $colorsombra: #e319f5;
     border-radius: 20px;
 }
 .text-shadow {
-    text-shadow: 2px 2px 5px $colorprimario
+    color: $colorsecundario;
+    text-shadow: 2px 2px 5px $colorsombra
 }  
 .textoblanco { color:$colorsecundario;
-    text-shadow: 2px 2px  $colorsombra
+    text-shadow: 2px 2px  $colornegro
 }
 .textoclaro {
     color: $colorsecundario;
-    text-shadow: 5px 5px  rgb(0, 0, 0);
+    text-shadow: 5px 5px $colornegro
 }

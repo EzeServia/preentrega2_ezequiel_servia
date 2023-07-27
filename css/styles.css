@@ -23,17 +23,18 @@
 }
 
 .text-shadow {
-  text-shadow: 2px 2px 5px blueviolet;
+  color: white;
+  text-shadow: 2px 2px 5px #e319f5;
 }
 
 .textoblanco {
   color: white;
-  text-shadow: 2px 2px #e319f5;
+  text-shadow: 2px 2px black;
 }
 
 .textoclaro {
   color: white;
-  text-shadow: 5px 5px rgb(0, 0, 0);
+  text-shadow: 5px 5px black;
 }
 
 .radius100 {
@@ -104,22 +105,12 @@
   width: 100%;
 }
 
-.widthnos {
-  width: 360px;
-  height: 360px;
-}
-
 .widthicon {
   width: 30px;
 }
 
 .width600 {
   width: 600px;
-}
-
-.width150 {
-  width: 150px;
-  height: 150px;
 }
 
 .widthauto {
@@ -130,6 +121,33 @@
   height: auto;
 }
 
+.widthnos {
+  width: 360px;
+  height: 360px;
+}
+
+.width150 {
+  width: 150px;
+  height: 150px;
+}
+
+.width170 {
+  width: 210px;
+  height: 210px;
+}
+
+/*.widthnos {
+   width: 360px;
+   height: 360px;
+}
+.width150 {
+   width: 150px;
+   height: 150px;
+}
+.width170 {
+   width: 210px;
+   height: 210px;
+}*/
 .grid-conteiner {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -189,7 +207,7 @@
     width: 300px;
   }
   video {
-    width: 280px;
+    width: 250px;
   }
   /*footer*/
   footer {
