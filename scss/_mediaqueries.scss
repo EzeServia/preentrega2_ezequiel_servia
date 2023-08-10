@@ -25,6 +25,10 @@
     "subt subt subt subt"
     "formulario formulario formulario formulario"
     "formulario formulario formulario formulario";
+}
+.logo{
+    width: 140px;
+    height: 140px;
 }   
 }
 @media (max-width: 375px) {
@@ -51,5 +55,14 @@
 footer {
     margin-top: 20px;
     text-align: center;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+} 
+.flexhead {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
 }
 }

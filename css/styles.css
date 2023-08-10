@@ -14,7 +14,7 @@
 .titulo {
   text-align: center;
   font-size: 100px;
-  margin-top: 100px;
+  margin: 20px;
 }
 
 .tituloser {
@@ -53,6 +53,10 @@
   margin: 10px;
 }
 
+.margin20 {
+  margin: 20px;
+}
+
 .margind {
   margin: auto;
   width: 100%;
@@ -85,6 +89,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.flexhead {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .boton {
@@ -143,6 +153,11 @@
 .video {
   width: 640px;
   height: 480px;
+}
+
+.logo {
+  width: 180px;
+  height: 180px;
 }
 
 .grid-conteiner {
@@ -247,6 +262,10 @@
     grid-template-rows: repeat(4, 1fr);
     grid-template-areas: "parrafo parrafo parrafo parrafo" "subt subt subt subt" "formulario formulario formulario formulario" "formulario formulario formulario formulario";
   }
+  .logo {
+    width: 140px;
+    height: 140px;
+  }
 }
 @media (max-width: 375px) {
   .titulo {
@@ -272,6 +291,15 @@
   footer {
     margin-top: 20px;
     text-align: center;
+  }
+  .logo {
+    width: 70px;
+    height: 70px;
+  }
+  .flexhead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 .fondo {
