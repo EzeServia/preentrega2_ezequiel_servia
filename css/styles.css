@@ -163,8 +163,8 @@
 .grid-conteiner {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  grid-template-areas: "parrafo parrafo parrafo parrafo" "subt subt formulario formulario" "subt subt formulario formulario" "subt subt formulario formulario";
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "parrafo parrafo parrafo parrafo" "subt subt formulario formulario" "subt subt formulario formulario";
 }
 
 .gridi1 {
@@ -259,8 +259,8 @@
   .grid-conteiner {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    grid-template-areas: "parrafo parrafo parrafo parrafo" "subt subt subt subt" "formulario formulario formulario formulario" "formulario formulario formulario formulario";
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "parrafo parrafo parrafo parrafo" "subt subt subt subt" "formulario formulario formulario formulario";
   }
   .logo {
     width: 140px;
